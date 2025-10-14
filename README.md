@@ -1,5 +1,3 @@
-<img src="https://#" width="100%">
-
 # Talos MCP Server
 
 An MCP (Model Context Protocol) server that provides seamless integration with Talos Linux clusters. This server enables Claude to interact with your Talos infrastructure through the native gRPC API.
