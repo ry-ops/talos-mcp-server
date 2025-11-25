@@ -112,7 +112,7 @@ class TalosClient:
 
 # Initialize the MCP server
 app = Server("talos-mcp-server")
-talos_client = TalosClient()
+talos_client = TalosClient(config_path=os.environ.get("TALOSCONFIG"))
 
 
 @app.list_tools()
